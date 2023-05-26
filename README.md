@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CoinFunds Landing Page
 
-## Getting Started
+CoinFunds is a crowdfunding platform that allows users to create campaigns and fund other campaigns. This repository contains the landing page of CoinFunds, built with Next.js.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
+To get started with the CoinFunds landing page, follow these steps:
+
+1. Clone this repository: `git clone <repository_url>`
+2. Install dependencies: `yarn`
+
+## Usage
+
+To run the CoinFunds landing page locally, use the following command:
+
+```
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server, and you can access the landing page in your browser at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions to the CoinFunds project. If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The CoinFunds landing page is open-source and released under the [MIT License](LICENSE). You can use and modify it according to your needs.

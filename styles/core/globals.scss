@@ -1,0 +1,46 @@
+:root {
+  --primary: #000;
+  --foreground: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #000;
+    --foreground: #fff;
+  }
+}
+
+html {
+  font-size: 10px;
+  background: $dark-bg;
+}
+
+body {
+  margin: 0px;
+  font-weight: 300;
+  color: var(--primary);
+  background: var(--foreground);
+}
+
+main {
+  @extend %page-full;
+}
+
+ul,
+li {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

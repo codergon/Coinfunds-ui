@@ -1,0 +1,44 @@
+$white: #ffffff;
+$black: #000010;
+
+$grey: #999;
+$dark: #1c1c1c;
+$gray: #808080;
+$white: #ffffff;
+$dove-gray: #666;
+$dark-bg: #161616;
+
+// $primary: #ac82fc;
+$primary: #6b46fe;
+$secondary: #cfdddb;
+
+$hor-padding: 40px;
+
+$content-w: 1110px;
+$border-1: 1px solid #666;
+$border-2: 1px solid #e2e2e2;
+
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$ease-custom: cubic-bezier(0.33, 0, 0.67, 1);
+$ease-menu: cubic-bezier(0.63, 0, 0.4, 0.99);
+$ease-hero-marquee: cubic-bezier(0.24, 0.6, 0.25, 1);
+
+// fonts
+$font-sans: "DMSans", sans-serif;
+
+// Z-indexes
+$z-indexes: (
+  "noscript",
+  "preloader",
+  "transition",
+  "modal",
+  "overlay",
+  "nav",
+  "canvas",
+  "menu",
+  "content",
+  "4",
+  "3",
+  "2",
+  "1"
+);

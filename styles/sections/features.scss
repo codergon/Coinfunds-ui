@@ -1,0 +1,25 @@
+.features {
+  // @extend %page-full;
+  @extend %column-center;
+  padding: 17vh $hor-padding 18vh;
+
+  @include tablet {
+    padding: 11vmax 5vw 10vmax;
+  }
+
+  $gap: 25px;
+
+  &__content {
+    gap: $gap;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: $content-w;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    @include tablet {
+      gap: 30px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.c-navbar {
+  width: 100%;
+  @extend %row-middle;
+  padding: 0px $hor-padding;
+
+  &__content {
+    flex: 1;
+    color: $dark;
+    font-size: 14px;
+    padding: 30px 0;
+    max-width: $content-w;
+    @extend %row-spaced-center;
+
+    &__logo {
+      @extend %row-center;
+      gap: 6px;
+      color: $dark;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    &__menu {
+      @extend %row-center;
+      gap: 10px;
+      a {
+        gap: 5px;
+        @extend %row-center;
+        padding: 6px 14px;
+      }
+    }
+
+    &__actions {
+      gap: 10px;
+      @extend %row-center;
+    }
+  }
+
+  @include tablet {
+    padding: 0px 5vw;
+    &__content {
+      padding: 20px 0;
+      &__menu {
+        a {
+          padding: 6px 10px;
+        }
+      }
+    }
+  }
+}

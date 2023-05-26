@@ -1,0 +1,83 @@
+.hero {
+  @extend %column-center;
+  padding: 100px $hor-padding 20px;
+
+  @include tablet {
+    padding: 11vmax 5vw 20px;
+  }
+  @include phone {
+    padding: 16vh 5vw 20px;
+  }
+
+  &-content {
+    @extend %column-center;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    &__text {
+      @extend %column-center;
+      gap: 20px;
+      max-width: 706px;
+
+      h1 {
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: -2px;
+        line-height: 1.1;
+      }
+      &-subtitle {
+        font-size: 18px;
+        line-height: 1.6;
+        letter-spacing: -0.5px;
+        color: #666;
+        font-weight: 100;
+        padding: 0px 4rem;
+      }
+
+      &__actions {
+        @extend %row-center;
+        gap: 20px;
+        margin-top: 10px;
+      }
+      @include tablet {
+        max-width: 500px;
+
+        h1 {
+          font-size: 4.6rem;
+        }
+        &-subtitle {
+          font-size: 16px;
+          padding: 0px 2rem;
+        }
+      }
+
+      @include phone {
+        max-width: 90%;
+
+        h1 {
+          font-size: 3rem;
+        }
+        &-subtitle {
+          font-size: 14.5px;
+          padding: 0px 1rem;
+        }
+      }
+    }
+
+    &__dashboard {
+      @extend %column-center;
+      width: 100%;
+      overflow: hidden;
+      margin-top: 70px;
+      border: $border-2;
+      position: relative;
+      border-radius: 12px;
+      max-width: $content-w - 120px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
